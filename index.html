@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SescMUN - Model United Nations</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/members.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/social.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Sesc<span class="highlight">MUN</span></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#who-we-are">Who We Are</a>
+            <a href="#project">The Project</a>
+            <a href="#join-us">Join Us</a>
+            <a href="#media">Media</a>
+            <a href="#members">Members</a>
+        </div>
+        <div class="social-links">
+            <a href="https://instagram.com/sescmun" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/sescmun" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com/company/sescmun" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="SescMUN Logo" class="main-logo">
+        </div>
+        <h1>Welcome to Sesc<span class="highlight">MUN</span></h1>
+        <p class="hero-tagline">Where Future Leaders Shape Tomorrow's World</p>
+        <div class="hero-buttons">
+            <a href="#join-us" class="cta-button primary">Join Now</a>
+            <a href="#project" class="cta-button secondary">Learn More</a>
+        </div>
+    </section>
+
+    <section id="who-we-are" class="content-section">
+        <div class="container">
+            <h2>Who We Are</h2>
+            <div class="section-content">
+                <p class="lead">SescMUN is a prestigious simulation of the United Nations that brings together passionate students to engage in meaningful diplomatic dialogue and shape global solutions.</p>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Diplomacy</h3>
+                        <p>Fostering international understanding through dialogue and negotiation</p>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-users"></i>
+                        <h3>Inclusivity</h3>
+                        <p>Embracing diversity and promoting equal representation</p>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Innovation</h3>
+                        <p>Pioneering new approaches to global problem-solving</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="content-section dark">
+        <div class="container">
+            <h2>The Project</h2>
+            <div class="section-content">
+                <div class="project-grid">
+                    <div class="project-item">
+                        <h3>Committees</h3>
+                        <ul>
+                            <li>Historical Council</li>
+                            <li>Tech Titans Special Group</li>
+                            <li>UN General Assembly</li>
+                            <li>Human Rights Council</li>
+                            <li>Security Council</li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <h3>Educational Impact</h3>
+                        <p>Our program develops crucial skills in:</p>
+                        <ul>
+                            <li>Public Speaking</li>
+                            <li>Critical Thinking</li>
+                            <li>Research & Analysis</li>
+                            <li>Diplomatic Negotiation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="media" class="content-section">
+        <div class="container">
+            <h2>Media Gallery</h2>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="photos">Photos</button>
+                <button class="filter-btn" data-filter="videos">Videos</button>
+            </div>
+            <div id="gallery" class="gallery-grid"></div>
+        </div>
+    </section>
+
+    <section id="members" class="content-section dark">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div id="members-grid" class="members-grid"></div>
+        </div>
+    </section>
+
+    <section id="join-us" class="content-section light">
+        <div class="container">
+            <h2>Join Us</h2>
+            <div class="join-content">
+                <div class="motivation-section">
+                    <h3>Why Join SescMUN?</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <i class="fas fa-globe"></i>
+                            <h4>Global Network</h4>
+                            <p>Connect with passionate students worldwide</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-comments"></i>
+                            <h4>Develop Skills</h4>
+                            <p>Master public speaking and negotiation</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-certificate"></i>
+                            <h4>Recognition</h4>
+                            <p>Earn certificates and awards</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-users"></i>
+                            <h4>Community</h4>
+                            <p>Join a diverse, supportive family</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form id="registration-form" class="registration-form">
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age *</label>
+                        <input type="number" id="age" required min="13" max="30">
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country/Representation *</label>
+                        <input type="text" id="country" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="committee1">First Choice Committee *</label>
+                        <select id="committee1" required></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="committee2">Second Choice Committee *</label>
+                        <select id="committee2" required></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="committee3">Third Choice Committee *</label>
+                        <select id="committee3" required></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="motivation">Why do you want to participate? *</label>
+                        <textarea id="motivation" rows="4" required placeholder="Share your motivation and what you hope to achieve through SescMUN..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="footer-social-links">
+                        <a href="https://instagram.com/sescmun" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/sescmun" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com/company/sescmun" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> contact@sescmun.org</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 8900</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#who-we-are">About Us</a></li>
+                        <li><a href="#join-us">Registration</a></li>
+                        <li><a href="#media">Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SescMUN. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
