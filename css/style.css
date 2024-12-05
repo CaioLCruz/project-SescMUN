@@ -15,6 +15,12 @@ span {
     color: #04407c;
     
 }
+.Edu {
+    color: rgb(225, 152, 27);
+}
+.Sesc {
+    color: orange;
+}
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
