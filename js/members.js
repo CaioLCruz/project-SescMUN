@@ -1,22 +1,63 @@
 const membersData = [
+
     {
-        name: 'John Doe',
-        position: 'President',
-        image: 'assets/members/member1.jpg',
-        description: 'Experienced leader with a passion for international relations.',
+        name: 'Riquelle Magalhães',
+        position: 'Professora Conselheira',
+        image: 'assets/members/riquelle.jpg',
+        description: 'Dedicated leader with a strong focus on diplomacy and international cooperation.',
         social: {
-            linkedin: 'https://linkedin.com/in/johndoe',
-            twitter: 'https://twitter.com/johndoe'
+            linkedin: 'https://linkedin.com/in/riquelle',
+            twitter: 'https://twitter.com/riquelle'
         }
     },
     {
-        name: 'Jane Smith',
-        position: 'Vice President',
-        image: 'assets/members/member2.jpg',
-        description: 'Dedicated to fostering diplomatic dialogue and understanding.',
+        name: 'Caio Lima da Cruz',
+        position: 'Secretário de Relações Públicas',
+        image: 'assets/members/caio.jpg',
+        description: 'Passionate about global issues and effective communication in international relations.',
         social: {
-            linkedin: 'https://linkedin.com/in/janesmith',
-            twitter: 'https://twitter.com/janesmith'
+            linkedin: 'https://linkedin.com/in/caiolima',
+            twitter: 'https://twitter.com/caiolima'
+        }
+    },
+    {
+        name: 'Luiza Rezende Calazans',
+        position: 'Vice-Secretária Geral',
+        image: 'assets/members/luiza.jpg',
+        description: 'Creative and strategic thinker with a focus on media relations and communication.',
+        social: {
+            linkedin: 'https://linkedin.com/in/luiza',
+            twitter: 'https://twitter.com/luiza'
+        }
+    },
+    {
+        name: 'Eduarda Lima Vilela',
+        position: 'Secretária Geral',
+        image: 'assets/members/eduarda.jpg',
+        description: 'Expert in organizing events with a focus on smooth operations and coordination.',
+        social: {
+            linkedin: 'https://linkedin.com/in/eduarda',
+            twitter: 'https://twitter.com/eduarda'
+        }
+    },
+    {
+        name: 'Maria Alyce',
+        position: 'Secretária Administrativa',
+        image: 'assets/members/mariaalyce.jpg',
+        description: 'Skilled in building strategic alliances and fostering long-term relationships.',
+        social: {
+            linkedin: 'https://linkedin.com/in/mariaalyce',
+            twitter: 'https://twitter.com/mariaalyce'
+        }
+    },
+    {
+        name: 'Juciana',
+        position: 'Secretária Acadêmica',
+        image: 'assets/members/juciana.jpg',
+        description: 'Experienced in securing funding and partnerships to support meaningful projects.',
+        social: {
+            linkedin: 'https://linkedin.com/in/juciana',
+            twitter: 'https://twitter.com/juciana'
         }
     }
 ];

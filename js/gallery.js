@@ -1,7 +1,9 @@
 const galleryData = [
-    { type: 'photos', url: 'assets/gallery/photo1.jpg' },
-    { type: 'photos', url: 'assets/gallery/photo2.jpg' },
-    { type: 'videos', url: 'assets/gallery/video1.mp4' }
+    { type: 'photos', url: 'https://live.staticflickr.com/65535/54037393376_ea6fa45db6_b.jpg' },
+    { type: 'photos', url: 'https://live.staticflickr.com/65535/54037394411_b2151d8d46_b.jpg' },
+    { type: 'photos', url: 'https://live.staticflickr.com/65535/54037847815_2536b538e6_z.jpg' },
+    {type: 'photos', url:  'https://live.staticflickr.com/65535/54037720494_6fb58b1a97_z.jpg' },
+    { type: 'videos', url: '.mp4' }
 ];
 
 export function initializeGallery() {
