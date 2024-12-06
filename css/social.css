@@ -10,7 +10,7 @@
 }
 
 .social-links a:hover {
-    color: var(--highlight-color);
+    color: var(--orange);
     transform: translateY(-2px);
 }
 
@@ -44,7 +44,7 @@
 }
 
 .footer-social-links a:hover {
-    color: var(--highlight-color);
+    color: var(--orange);
     transform: translateY(-2px);
 }
 
@@ -63,7 +63,7 @@
 }
 
 .footer-section ul a:hover {
-    color: var(--highlight-color);
+    color: var(--orange);
 }
 
 .footer-bottom {

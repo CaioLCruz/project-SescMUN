@@ -4,6 +4,7 @@
     --highlight-color: #0d4277;
     --accent-color: #ffffff;
     --transition: all 0.3s ease;
+    --orange: orange;
 }
 
 * {
@@ -15,11 +16,11 @@ span {
     color: #04407c;
     
 }
-.Edu {
-    color: rgb(225, 152, 27);
+.Educ {
+    color: rgb(245, 161, 16);
 }
 .Sesc {
-    color: orange;
+    color: rgb(254, 165, 11);
 }
 body {
     font-family: 'Poppins', sans-serif;

@@ -8,7 +8,7 @@
 
 .member-card {
     background-color: var(--accent-color);
-    border-radius: 10px;
+    border-radius: 40px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: var(--transition);
@@ -25,6 +25,7 @@
     padding-top: 100%; /* 1:1 Aspect Ratio */
     overflow: hidden;
     background-color: #f0f0f0;
+   
 }
 
 .member-image {
@@ -35,6 +36,7 @@
     height: 100%;
     object-fit: cover;
     transition: var(--transition);
+    
 }
 
 .member-card:hover .member-image {
@@ -43,6 +45,7 @@
 
 .member-info {
     padding: 1.5rem;
+
 }
 
 .member-name {
@@ -53,7 +56,7 @@
 }
 
 .member-position {
-    color: var(--secondary-color);
+    color: rgb(255, 166, 0);
     margin-bottom: 1rem;
     font-weight: 500;
 }
@@ -78,3 +81,4 @@
 .member-social a:hover {
     color: var(--primary-color);
 }
+

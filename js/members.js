@@ -3,7 +3,7 @@ const membersData = [
     {
         name: 'Riquelle Magalhães',
         position: 'Professora Conselheira',
-        image: 'assets/members/riquelle.jpg',
+        image: 'https://live.staticflickr.com/65535/54037720494_6fb58b1a97_z.jpg',
         description: 'Dedicated leader with a strong focus on diplomacy and international cooperation.',
         social: {
             linkedin: 'https://linkedin.com/in/riquelle',
