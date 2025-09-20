@@ -113,6 +113,10 @@ h2 {
     color: var(--accent-color);
 }
 
+.cta-button.tertiary {
+    background-color: rgb(245, 161, 16);
+    color: var(--accent-color);
+}
 .cta-button.secondary {
     background-color: transparent;
     border: 2px solid var(--accent-color);
@@ -126,7 +130,10 @@ h2 {
 .cta-button.primary:hover {
     background-color: var(--secondary-color);
 }
-
+.cta-button.tertiary:hover {
+    background-color: rgb(190, 124, 9);
+}
+ 
 .cta-button.secondary:hover {
     background-color: var(--accent-color);
     color: var(--primary-color);
